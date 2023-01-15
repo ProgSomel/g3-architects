@@ -539,7 +539,15 @@ hr {
     color: #424242;
     padding-top: 5px;
   }
+  .extra-section {
+    margin-top: 5px;
+    margin-left: 0;
+    padding: 30px;
+  }
+  .professionals-container {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+  }
 }
-.hide {
-  display: none;
-}
+
