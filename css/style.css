@@ -203,4 +203,29 @@ li {
     background: url(group-three-modern-architects.jpg);
     border-radius: 8px;
   }
+  .features-container {
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 5px;
+
+  }
+  .features-img-container img {
+    width: 242px;
+    height: 242px;
+    background: url(business-people-with-arms-crossed.jpg);
+    border-radius: 8px;
+    margin: 5px;
+    padding-left: 50px;
+  }
+  .features-description {
+    width: 200px;
+    height: 304px;
+    margin-top: 50px;
+    margin-left: 0x;
+    margin-right: 100px;
+  }
+}
+.hide {
+  display: none;
 }
