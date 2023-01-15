@@ -307,6 +307,25 @@ hr {
   color: grey;
 }
 
+/*-------------------- footer styles ----------------------- */
+
+.footer {
+  width: 1440px;
+  height: 100px;
+  background: rgba(255, 144, 14, 0.1);
+  margin-top: 90px;
+  margin-left: 260px;
+  border-radius: 5px;
+}
+.footer-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #424242;
+  padding-top: 50px;
+}
+
 /*------------------- section 3 styles----------------------- */
 
 /*------------------- Media Queries-------------------------- */
@@ -457,7 +476,6 @@ hr {
     margin-left: 0;
     text-align: left;
   }
-
 }
 .hide {
   display: none;
