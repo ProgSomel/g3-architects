@@ -436,6 +436,28 @@ hr {
     flex-direction: column;
     gap: 25px;
   }
+  .sponsor-title {
+    font-size: 30px;
+    text-align: left;
+    padding: 10px;
+  }
+  .sponsor-info {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #727272;
+    height: 30px;
+    width: 15px;
+    margin-left: 80px;
+  }
+  .sponsor-company {
+    margin-top: 400px;
+    /* flex-direction: column; */
+    flex-direction: column;
+    margin-left: 0;
+    text-align: left;
+  }
+
 }
 .hide {
   display: none;
