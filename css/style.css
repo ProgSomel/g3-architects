@@ -195,7 +195,7 @@ hr {
   color: #727272;
   padding: 5px;
 }
-.features-love-imag img {
+.features-love-img img {
   width: 500px;
   height: 895px;
   margin-top: 50px;
@@ -212,7 +212,7 @@ hr {
   color: #ffffff;
   position: relative;
   bottom: 80px;
-  right: 50px;
+  right: 60px;
 }
 .features-love-btn-span {
   font-weight: 800;
@@ -229,6 +229,8 @@ hr {
 @media only screen and (max-width: 688px) {
   .header {
     width: 100%;
+    height: 890px;
+    width: 400px;
   }
   .nav {
     padding: 15px;
@@ -283,7 +285,7 @@ hr {
   .header img {
     width: 375px;
     height: 200px;
-    margin-left: 1px;
+    margin-left: 8px;
     margin-top: 130px;
     background: url(group-three-modern-architects.jpg);
     border-radius: 8px;
@@ -308,6 +310,36 @@ hr {
     margin-top: 50px;
     margin-left: 0x;
     margin-right: 100px;
+  }
+  .features-love {
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+    margin-top: 150px;
+  }
+  .features-love-description {
+    margin-left: 0;
+    width: 286px;
+    padding: 10px;
+  }
+  .features-love-description-content {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 156px;
+    height: 350px;
+    padding: 20px;
+    margin-right: 0;
+  }
+  .features-love-img img {
+    width: 342px;
+    height: 542px;
+    margin-top: 950px;
+    margin-left: 15px;
+  }
+  .features-love-btn {
+    bottom: 60px;
+    right: 60px;
+    left: 70px;
   }
 }
 .hide {
