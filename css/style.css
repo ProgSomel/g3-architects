@@ -246,7 +246,6 @@ hr {
 .facts-content {
   display: flex;
   gap: 125px;
-  
 }
 .fact {
   width: 220.83px;
@@ -254,11 +253,11 @@ hr {
   border: 1px solid #ff900e;
   border-radius: 8px;
   text-align: center;
-  transition: width 1s, height 1s, transform 1s ;
+  transition: width 1s, height 1s, transform 1s;
 }
 .fact:hover {
   background-color: rgba(255, 144, 14, 0.1);
-  transform: rotate(360deg);
+  transform: scale(1.5) rotate(360deg);
 }
 .fact img {
   width: 47.39px;
@@ -279,6 +278,36 @@ hr {
   line-height: 23px;
   margin-top: 10px;
 }
+.sponsors {
+  text-align: center;
+  margin-top: 100px;
+}
+.sponsor-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 20px;
+}
+.sponsor-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+}
+.sponsor-company {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.sponsor-company li a {
+  text-decoration: none;
+  color: grey;
+}
+
+/*------------------- section 3 styles----------------------- */
 
 /*------------------- Media Queries-------------------------- */
 
@@ -377,7 +406,7 @@ hr {
   .features-love-description {
     margin-left: 0;
     width: 286px;
-    padding: 10px;
+    padding: 40px;
   }
   .features-love-description-content {
     margin-top: 20px;
@@ -397,6 +426,15 @@ hr {
     bottom: 60px;
     right: 60px;
     left: 70px;
+  }
+  .facts-container {
+    margin-top: 1670px;
+    margin-left: 0;
+    padding: 40px;
+  }
+  .facts-content {
+    flex-direction: column;
+    gap: 25px;
   }
 }
 .hide {
