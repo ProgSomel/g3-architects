@@ -196,8 +196,8 @@ hr {
   padding: 5px;
 }
 .features-love-img img {
-  width: 500px;
-  height: 895px;
+  width: 600px;
+  height: 1170px;
   margin-top: 50px;
 }
 .features-love-btn {
@@ -221,6 +221,63 @@ hr {
   text-align: center;
   color: #ffffff;
   padding-bottom: 5px;
+}
+
+/*------------------- section 3 styles-------------------------- */
+
+.facts-container {
+  margin-top: 300px;
+  margin-left: 340px;
+}
+.fact-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 10px;
+}
+.fact-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-bottom: 50px;
+}
+.facts-content {
+  display: flex;
+  gap: 125px;
+  
+}
+.fact {
+  width: 220.83px;
+  height: 220.83px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  text-align: center;
+  transition: width 1s, height 1s, transform 1s ;
+}
+.fact:hover {
+  background-color: rgba(255, 144, 14, 0.1);
+  transform: rotate(360deg);
+}
+.fact img {
+  width: 47.39px;
+  height: 45.22px;
+  margin-top: 40px;
+}
+.fact-count {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 53px;
+  color: #424242;
+}
+.fact-info {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+  line-height: 23px;
+  margin-top: 10px;
 }
 
 /*------------------- Media Queries-------------------------- */
