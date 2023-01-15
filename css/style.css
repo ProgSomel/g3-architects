@@ -280,7 +280,8 @@ hr {
 }
 .sponsors {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 90px;
+  margin-left: 100px;
 }
 .sponsor-title {
   font-weight: 700;
@@ -330,8 +331,8 @@ hr {
 
 /*------------------- Media Queries-------------------------- */
 
-/*------------------- Mobile Devices------------------------- */
-@media only screen and (max-width: 688px) {
+/*----------------- Mobile Devices------------------------- */
+@media only screen and (max-width:688px) {
   .header {
     width: 100%;
     height: 890px;
@@ -455,6 +456,11 @@ hr {
     flex-direction: column;
     gap: 25px;
   }
+  .sponsors {
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 0;
+  }
   .sponsor-title {
     font-size: 30px;
     text-align: left;
@@ -475,6 +481,22 @@ hr {
     flex-direction: column;
     margin-left: 0;
     text-align: left;
+  }
+  .footer {
+    width: 100%;
+    width: 400px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 0;
+    border-radius: 5px;
+  }
+  .footer-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+    padding-top: 5px;
   }
 }
 .hide {
